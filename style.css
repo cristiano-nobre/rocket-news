@@ -1,0 +1,48 @@
+* {
+  color: #e1e1e6;
+}
+
+body {
+  background-color: black;
+  background-image: url(./assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: right;
+}
+
+p {
+  color: #e1e1e6;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #04d361;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #e1e1e6;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+h5 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+input {
+  color: black;
+}
