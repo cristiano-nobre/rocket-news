@@ -3,7 +3,11 @@
 }
 
 body {
-  background-color: black;
+  font-family: 'Spartan', 'Work Sans', sans-serif;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 720px 1fr;
+  background-color: rgb(36, 36, 36);
   background-image: url(./assets/read_news.jpg);
   background-repeat: no-repeat;
   background-size: 50% 100%;
@@ -12,9 +16,9 @@ body {
 
 p {
   color: #e1e1e6;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Spartan', 'Work Sans', sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 15px;
 }
 
 h2 {
@@ -22,6 +26,7 @@ h2 {
   font-weight: 700;
   font-size: 30px;
   color: #04d361;
+  margin-left: 35px;
 }
 
 h3 {
@@ -29,20 +34,80 @@ h3 {
   font-weight: 700;
   font-size: 20px;
   color: #e1e1e6;
+  margin-left: 35px;
 }
 
-h4 {
+p {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e1e1e6;
+  margin-left: 35px;
 }
 
-h5 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
+.logo {
+  max-width: 390px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-input {
-  color: black;
+.logo > img {
+  width: 100%;
+  height: 5.88rem;
+}
+
+#form > fieldset {
+  border: none;
+  padding: 0;
+  margin-left: 35px;
+}
+
+fieldset > legend {
+  color: var(--form-color);
+  font-family: 'Spartan', 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.87rem;
+  line-height: 1.18rem;
+}
+
+#email {
+  margin-top: 1.06rem;
+  width: 798px;
+  display: flex;
+}
+
+#email > input {
+  margin-left: 35px;
+  width: 700px;
+  border: none;
+  border-left: solid 10px #04d361;
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  font-family: 'Spartan', 'Work Sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.756rem;
+  padding: 10px;
+}
+
+#email > button {
+  width: 70px;
+  height: 70px;
+  border: none;
+  background-color: hsl(258, 73%, 62%);
+  z-index: 1;
+}
+
+.link {
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.link a {
+  text-decoration: none;
+  color: hsl(258, 73%, 62%);
+  font-family: 'Spartan', 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1.18rem;
+  display: flex;
+  align-items: center;
 }
